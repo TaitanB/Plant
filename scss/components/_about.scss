@@ -12,6 +12,14 @@
     background-repeat: no-repeat;
     background-position: bottom 0 right 0;
 
+    @media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      &__image-container {
+        background-image: url(../image/about/todd-trapani-2x.jpg);
+      }
+    }
+
     &::before {
       content: "";
       position: absolute;

@@ -14,14 +14,15 @@
   background-position: left 598px bottom 134px, right 413px top 218px,
     right 21px top 116px, right 34px bottom 134px, right 74px bottom 22px;
 
-  // @media (min-device-pixel-ratio: 2),
-  //   (min-resolution: 192dpi),
-  //   (min-resolution: 2dppx) {
-  //   background-image: url(../../image//hero/klipartz7-2x.png),
-  //     url(../../image//hero/group1-2x.png), url(../../image//hero/group2-2x.png),
-  //     url(../../image//hero/group3-2x.png),
-  //     url(../../image/hero/klipartz5-2x.png);
-  // }
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+      background-image: url(../image/hero/klipartz7-2x.png),
+        url(../image/hero/group1-2x.png), url(../image/hero/group2-2x.png),
+        url(../image/hero/group3-2x.png), url(../image/hero/klipartz5-2x.png);
+    }
+  }
 
   &__content {
     width: 548px;

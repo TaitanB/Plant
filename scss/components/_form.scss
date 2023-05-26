@@ -8,6 +8,14 @@
   background-repeat: no-repeat;
   background-position: top 0 right 224px;
 
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .form {
+      background-image: url(../image/form/klipartz-2x.png);
+    }
+  }
+
   &::before {
     content: "";
     position: absolute;

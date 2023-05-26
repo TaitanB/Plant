@@ -3,6 +3,14 @@
   background-repeat: no-repeat;
   background-position: right 144px top 0;
 
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .testimonial {
+      background-image: url(../image/testimonial/pexels-cottonbro-2x.jpg);
+    }
+  }
+
   &__content {
     width: 497px;
     margin-bottom: 43px;

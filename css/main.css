@@ -176,6 +176,11 @@ body {
   background-repeat: no-repeat;
   background-position: left 598px bottom 134px, right 413px top 218px, right 21px top 116px, right 34px bottom 134px, right 74px bottom 22px;
 }
+@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .hero .hero {
+    background-image: url(../image/hero/klipartz7-2x.png), url(../image/hero/group1-2x.png), url(../image/hero/group2-2x.png), url(../image/hero/group3-2x.png), url(../image/hero/klipartz5-2x.png);
+  }
+}
 .hero__content {
   width: 548px;
 }
@@ -285,6 +290,11 @@ body {
   background-image: url(../image/about/todd-trapani-1x.jpg);
   background-repeat: no-repeat;
   background-position: bottom 0 right 0;
+}
+@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .about__image-container__image-container {
+    background-image: url(../image/about/todd-trapani-2x.jpg);
+  }
 }
 .about__image-container::before {
   content: "";
@@ -447,6 +457,11 @@ body {
   background-repeat: no-repeat;
   background-position: right 144px top 0;
 }
+@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .testimonial .testimonial {
+    background-image: url(../image/testimonial/pexels-cottonbro-2x.jpg);
+  }
+}
 .testimonial__content {
   width: 497px;
   margin-bottom: 43px;
@@ -544,6 +559,11 @@ body {
   background-image: url(../image/form/klipartz-1x.png);
   background-repeat: no-repeat;
   background-position: top 0 right 224px;
+}
+@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .form .form {
+    background-image: url(../image/form/klipartz-2x.png);
+  }
 }
 .form::before {
   content: "";
