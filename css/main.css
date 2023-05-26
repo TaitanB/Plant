@@ -180,7 +180,7 @@ body {
   width: 548px;
 }
 .hero__title {
-  font-family: "Nunito";
+  font-family: var(--secondary-font);
   font-style: normal;
   font-weight: 700;
   font-size: 72px;
@@ -199,7 +199,7 @@ body {
   margin-top: 60px;
 }
 .hero__count {
-  font-family: "Nunito";
+  font-family: var(--secondary-font);
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -222,7 +222,7 @@ body {
   gap: 62px;
 }
 .gallery__title {
-  font-family: "Nunito";
+  font-family: var(--secondary-font);
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -307,7 +307,7 @@ body {
   margin-bottom: 12px;
 }
 .about__subtitle {
-  font-family: "Nunito";
+  font-family: var(--secondary-font);
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -337,7 +337,7 @@ body {
           align-items: center;
 }
 .menu__title {
-  font-family: "Nunito";
+  font-family: var(--secondary-font);
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -401,7 +401,7 @@ body {
   padding: 6px 31px 29px;
 }
 .menu__plant-title {
-  font-family: "Nunito";
+  font-family: var(--secondary-font);
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
@@ -417,7 +417,6 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 16px;
   margin-bottom: 12px;
 }
 .menu__star {
@@ -425,7 +424,7 @@ body {
   height: 16px;
 }
 .menu__plant-price {
-  font-family: "Nunito";
+  font-family: var(--secondary-font);
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
@@ -482,7 +481,7 @@ body {
           align-items: center;
 }
 .testimonial__name {
-  font-family: "Nunito";
+  font-family: var(--secondary-font);
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
@@ -564,7 +563,7 @@ body {
   margin-left: 56px;
 }
 .form__title {
-  font-family: "Nunito";
+  font-family: var(--secondary-font);
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -638,7 +637,7 @@ body {
           align-items: center;
 }
 .instragram__title {
-  font-family: "Nunito";
+  font-family: var(--secondary-font);
   font-style: normal;
   font-weight: 700;
   font-size: 48px;
