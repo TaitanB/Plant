@@ -609,15 +609,18 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding-right: 8px;
+  gap: 10px;
 }
 .form__input {
   width: 360px;
   font-size: 14px;
   line-height: 1.286;
   color: #5a5a5a;
-  padding: 11px 20px;
+  padding: 11px;
+  border-radius: 4px;
   border: none;
   outline: none;
+  margin-left: 8px;
   -webkit-transition: border 400ms ease-out;
   transition: border 400ms ease-out;
 }
