@@ -1,0 +1,89 @@
+.testimonial {
+  // height: 430px;
+
+  background-image: url(../image/testimonial/pexels-cottonbro-1x.jpg);
+  background-repeat: no-repeat;
+  background-position: right 144px top 0;
+
+  &__content {
+    width: 497px;
+    margin-bottom: 43px;
+  }
+
+  &__title {
+    font-family: var(--secondary-font);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.25;
+    color: var(--primary-text-color);
+    margin-bottom: 12px;
+  }
+
+  &__description {
+    color: #ececec;
+  }
+
+  &__container {
+    position: relative;
+    width: 502px;
+    // left: 144px;
+    // top: 183px;
+    background: #066f14;
+    padding: 20px 63px 30px 32px;
+    margin-bottom: 43px;
+  }
+
+  &__photo-container {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 16px;
+    align-items: center;
+  }
+
+  &__name {
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.389;
+    color: #ffffff;
+    margin-bottom: 6px;
+  }
+
+  &__pisition {
+    font-size: 14px;
+    line-height: 1.286;
+    color: #d9d9d9;
+  }
+
+  &__icon {
+    position: absolute;
+    top: 16px;
+    right: 24px;
+  }
+
+  &__arrow-right {
+    position: absolute;
+    bottom: 0;
+    right: 24px;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #143b19;
+  }
+
+  &__arrow-left {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+  }
+}

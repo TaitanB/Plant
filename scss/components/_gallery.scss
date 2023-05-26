@@ -1,0 +1,53 @@
+.gallery {
+  display: flex;
+  gap: 62px;
+
+  &__title {
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.361;
+    color: var(--primary-text-color);
+    width: 389px;
+    margin-bottom: 37px;
+  }
+
+  &__link {
+    font-size: 18px;
+    line-height: 1.278;
+    display: flex;
+    align-items: center;
+
+    transition: color 400ms ease-out, fill 400ms ease-out;
+
+    &:hover,
+    &:focus {
+      scale: 1.1;
+      color: var(--acent-color);
+      fill: var(--acent-color);
+    }
+  }
+
+  &__icon {
+    fill: currentColor;
+    width: 16px;
+    height: 23px;
+    margin-left: 9px;
+  }
+
+  &__list {
+    display: flex;
+    gap: 24px;
+  }
+
+  &__list-item {
+    border-radius: 4px;
+    overflow: hidden;
+
+    &:hover,
+    &:focus {
+      scale: 1.1;
+    }
+  }
+}

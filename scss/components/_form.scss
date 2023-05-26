@@ -1,0 +1,93 @@
+.form {
+  position: relative;
+  padding-top: 36px;
+  justify-content: center;
+  margin-bottom: 79px;
+
+  background-image: url(../image/form/klipartz-1x.png);
+  background-repeat: no-repeat;
+  background-position: top 0 right 224px;
+
+  &::before {
+    content: "";
+    position: absolute;
+    display: block;
+    bottom: 0;
+    left: 200px;
+    height: 320px;
+    width: 1040px;
+    background: #dfffe3;
+    border-radius: 6px;
+    z-index: -1;
+  }
+
+  &__container {
+    width: 480px;
+    padding: 60px 56px;
+    margin-left: 56px;
+  }
+
+  &__title {
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.25;
+    color: var(--primary-text-color);
+    margin-bottom: 12px;
+  }
+
+  &__descr {
+    margin-bottom: 30px;
+  }
+
+  &__label {
+    display: flex;
+    width: 442px;
+    height: 56px;
+    background: #ffffff;
+    border-radius: 4px;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 8px;
+  }
+
+  &__input {
+    width: 360px;
+    font-size: 14px;
+    line-height: 1.286;
+    color: #5a5a5a;
+    padding: 11px 20px;
+    border: none;
+    outline: none;
+
+    transition: border 400ms ease-out;
+
+    &:focus {
+      border: 1px solid var(--acent-color);
+    }
+  }
+
+  &__btn {
+    padding: 11px 16px;
+    background: #066f14;
+    border-radius: 4px;
+    border: none;
+    font-size: 14px;
+    line-height: 1.286;
+    color: #fefefe;
+
+    transition: background-color 400ms ease-out;
+
+    &:hover,
+    &:focus {
+      background-color: var(--acent-color);
+    }
+  }
+
+  &__img {
+    position: absolute;
+    bottom: 0;
+    right: 24px;
+  }
+}

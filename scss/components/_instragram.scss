@@ -1,0 +1,56 @@
+.instragram {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__title {
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 1.188;
+    color: var(--primary-text-color);
+    margin-bottom: 12px;
+    text-align: center;
+  }
+
+  &__description {
+    width: 544px;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  &__list {
+    display: flex;
+  }
+
+  &__list-item {
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+
+    &:hover .overlay,
+    &:focus .overlay {
+      opacity: 1;
+      top: 0;
+      pointer-events: auto;
+    }
+  }
+}
+
+.overlay {
+  position: absolute;
+  top: -100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.34);
+  z-index: 2;
+  pointer-events: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transition: opacity 400ms ease-out, top 400ms ease-out;
+}

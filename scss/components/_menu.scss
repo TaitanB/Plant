@@ -1,0 +1,110 @@
+.menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__title {
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.25;
+    color: var(--primary-text-color);
+    margin-bottom: 24px;
+  }
+
+  &__nav {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 50px;
+  }
+
+  &__nav-link {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+
+    transition: color 400ms ease-out, border-bottom 400ms ease-out;
+
+    &:hover,
+    &:focus {
+      color: #066f14;
+      border-bottom: 1px solid #066f14;
+    }
+  }
+
+  &__plants {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 40px;
+  }
+
+  &__plant-item {
+    width: 270px;
+    height: 283px;
+    padding-top: 7px;
+    background-color: #e2ece4;
+
+    transition: background-color 400ms ease-out;
+
+    &:hover,
+    &:focus {
+      background-color: #f0ebe6;
+      scale: 1.1;
+    }
+  }
+
+  &__plant-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__plant-item-content {
+    padding: 6px 31px 29px;
+  }
+
+  &__plant-title {
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.167;
+    color: var(--primary-text-color);
+    margin-bottom: 10px;
+  }
+
+  &__plant-rating {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    height: 16px;
+    margin-bottom: 12px;
+  }
+
+  &__star {
+    width: 16px;
+    height: 16px;
+  }
+
+  &__plant-price {
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.188;
+    color: var(--primary-text-color);
+  }
+
+  &__btn {
+    background: #066f14;
+    border-radius: 4px;
+    border: none;
+    padding: 16px 32px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.278;
+    color: #ffffff;
+  }
+}
