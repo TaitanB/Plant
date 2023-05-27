@@ -1,6 +1,6 @@
 <h1><img src="image/hero/klipartz7-1x.png" alt="logo" style="width:48px;"> Plant</h1>
 
-<p><b style="font-size: 20px;">Plant</b> - is a minimalist home plant-themed landing page. Desktop version.</p>
+<p><b style="font-size: 20px;">Plant</b> - is a minimalist home plant-themed landing page.</p>
 
 ![hero](image/hero.jpg)
 
