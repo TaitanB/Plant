@@ -1,7 +1,4 @@
-<div style="display: flex; align-items: center;">
-<img src="image/hero/klipartz7-1x.png" alt="logo" style="width:48px;">
-<h1 style="font-size: 48px; margin-bottom: 30px;">Plant</h1>
-</div>
+<h1><img src="image/hero/klipartz7-1x.png" alt="logo" style="width:48px;"> Plant</h1>
 
 <p><b style="font-size: 20px;">Plant</b> - is a minimalist home plant-themed landing page. Desktop version.</p>
 
@@ -13,4 +10,6 @@
 <li>SCSS</li>
 </ul>
 
-![hero](image/overlay.jpg)
+<img src="image/mobile.jpg" alt="mobile" style="width:280px;">
+
+![overlay](image/overlay.jpg)
